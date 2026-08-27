@@ -1,1 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTag Marketplace</title>
 
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0b0b0f;
+            color: white;
+        }
+
+        header {
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #111118;
+            border-bottom: 1px solid #24242e;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: #aaa;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 55px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            color: #aaa;
+            font-size: 18px;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 14px 25px;
+            background: #6c5ce7;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+
+        .projects {
+            padding: 40px 50px;
+        }
+
+        .projects h2 {
+            font-size: 30px;
+        }
+
+        .card-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            width: 280px;
+            background: #15151d;
+            border: 1px solid #252532;
+            border-radius: 14px;
+            overflow: hidden;
+        }
+
+        .thumbnail {
+            height: 150px;
+            background: #242438;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #777;
+        }
+
+        .card-content {
+            padding: 18px;
+        }
+
+        .price {
+            color: #7c6cff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">🦍 GTag Marketplace</div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Browse</a>
+        <a href="#">Sell</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Gorilla Tag Projects.</h1>
+
+    <p>
+        Discover fan-game projects, maps, systems and assets.
+    </p>
+
+    <a class="button" href="#">Browse Projects</a>
+</section>
+
+<section class="projects">
+
+    <h2>Featured Projects</h2>
+
+    <div class="card-container">
+
+        <div class="card">
+            <div class="thumbnail">
+                Project Thumbnail
+            </div>
+
+            <div class="card-content">
+                <h3>Neon Tag</h3>
+                <p>Complete fan-game starter project.</p>
+                <p class="price">$15.00</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="thumbnail">
+                Project Thumbnail
+            </div>
+
+            <div class="card-content">
+                <h3>Haunted Forest</h3>
+                <p>Map and environment project.</p>
+                <p class="price">$8.00</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+</html>
